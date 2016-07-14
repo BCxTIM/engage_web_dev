@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 /**
  * Created by timrusso on 4/25/16.
  */
-public class LoginFlowTests extends TestBase {
+public class LoginTests extends TestBase {
 
 
     @Test

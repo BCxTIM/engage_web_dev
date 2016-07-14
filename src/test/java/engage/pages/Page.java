@@ -11,8 +11,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public abstract class Page {
 
-	protected WebDriver webDriver;
-	protected  PageManager pages;
+	protected WebDriver driver;
+	protected PageManager pages;
 	protected WebDriverWait wait;
 
 
@@ -34,16 +34,19 @@ public abstract class Page {
 	 * 
 	 * @param webDriver
 	 */
-	public Page(WebDriver webDriver) {
-		this.webDriver = webDriver;
+	public Page(PageManager pages) {
+		this.pages = pages;
+		driver = pages.getWebDriver();
+		wait = new WebDriverWait(driver, 10);
+
 	}
 
 	public WebDriver getWebDriver() {
-		return webDriver;
+		return driver;
 	}
 
 	public String getTitle() {
-		return webDriver.getTitle();
+		return driver.getTitle();
 	}
 
 }

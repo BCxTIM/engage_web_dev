@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests" duration-ms="4985" started-at="2016-07-14T10:30:32Z" finished-at="2016-07-14T10:30:37Z">
+  <suite name="Tests" duration-ms="2795" started-at="2016-07-14T11:50:58Z" finished-at="2016-07-14T11:51:01Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="4985" started-at="2016-07-14T10:30:32Z" finished-at="2016-07-14T10:30:37Z">
-      <class name="engage.pages.HomePageTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:engage.pages.HomePageTest@30c7da1e]" name="init" is-config="true" duration-ms="2906" started-at="2016-07-14T13:30:32Z" finished-at="2016-07-14T13:30:35Z">
+    <test name="Test1" duration-ms="2795" started-at="2016-07-14T11:50:58Z" finished-at="2016-07-14T11:51:01Z">
+      <class name="tests.LoginTests">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.LoginTests@30c7da1e]" name="init" is-config="true" duration-ms="2787" started-at="2016-07-14T14:50:58Z" finished-at="2016-07-14T14:51:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testH1Existing()[pri:0, instance:engage.pages.HomePageTest@30c7da1e]" name="testH1Existing" duration-ms="2068" started-at="2016-07-14T13:30:35Z" finished-at="2016-07-14T13:30:37Z">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:tests.LoginTests@30c7da1e]" name="testOne" duration-ms="1" started-at="2016-07-14T14:51:01Z" finished-at="2016-07-14T14:51:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testH1Existing -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:engage.pages.HomePageTest@30c7da1e]" name="tearDown" is-config="true" duration-ms="89" started-at="2016-07-14T13:30:37Z" finished-at="2016-07-14T13:30:37Z">
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:tests.LoginTests@30c7da1e]" name="stop" is-config="true" duration-ms="78" started-at="2016-07-14T14:51:02Z" finished-at="2016-07-14T14:51:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- engage.pages.HomePageTest -->
+        </test-method> <!-- stop -->
+      </class> <!-- tests.LoginTests -->
     </test> <!-- Test1 -->
   </suite> <!-- Tests -->
 </testng-results>

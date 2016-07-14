@@ -13,7 +13,7 @@ public class LoginHelper1 extends DriverBasedHelper implements LoginHelper {
     private ApplicationManager1 manager;
 
     public LoginHelper1(ApplicationManager1 manager) {
-        super(manager.getWebDrivier());
+        super(manager.getWebDriver());
         this.manager = manager;
     }
 

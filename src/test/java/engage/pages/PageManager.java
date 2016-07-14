@@ -24,7 +24,7 @@ public class PageManager {
     }
 
     private < T extends Page>  T initElements(T page) {
-        PageFactory.initElements(new AppiumFieldDecorator(driver), page);
+        PageFactory.initElements(driver, page);
         return page;
     }
 

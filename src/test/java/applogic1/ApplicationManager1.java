@@ -1,11 +1,11 @@
 package applogic1;
 
 import applogic.*;
+import engage.util.Browser;
+import engage.util.PropertyLoader;
+import engage.webdriver.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
-import java.io.File;
-import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -15,49 +15,79 @@ public class ApplicationManager1 implements ApplicationManager {
 
     private LoginHelper loginHelper;
 
-
     private WebDriver driver;
+    protected String gridHubUrl;
 
-    public ApplicationManager1() throws Exception {
+    private String baseUrl;
 
+    protected Browser browser;
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
+    private static final String SCREENSHOT_FOLDER = "target/screenshots/";
+    private static final String SCREENSHOT_FORMAT = ".png";
 
-        capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("automationName", "Appium");
+    public ApplicationManager1()  {
 
-        capabilities.setCapability("platformVersion", "5.1");
-        capabilities.setCapability("deviceName", "Nexus_5X_API_22");
+        baseUrl = PropertyLoader.loadProperty("site.url");
+        gridHubUrl = PropertyLoader.loadProperty("grid2.hub");
 
-        File file = new File("/Users/timrusso/.jenkins/workspace/testgradle/app/build/outputs/apk/app-advisor-debug.apk");
-        capabilities.setCapability("app", file.getAbsolutePath());
+        browser = new Browser();
+        browser.setName(PropertyLoader.loadProperty("browser.name"));
+        browser.setVersion(PropertyLoader.loadProperty("browser.version"));
+        browser.setPlatform(PropertyLoader.loadProperty("browser.platform"));
 
-        driver = new WebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities) {
-        };
+        String username = PropertyLoader.loadProperty("user.username");
+        String password = PropertyLoader.loadProperty("user.password");
+
+        driver = WebDriverFactory.getInstance(gridHubUrl, browser, username,
+                password);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         loginHelper = new LoginHelper1(this);
 
-
     }
 
-
-
+    @Override
     public LoginHelper getLoginHelper() {
         return  loginHelper;
     }
 
+    protected String getBaseUrl() {
+        return baseUrl;
+    }
 
 
+    @Override
     public void stop() {
         if(driver != null) {
             driver.quit();
         }
     }
 
-    public WebDriver getAndroidDriver() {
+    public WebDriver getWebDriver() {
         return driver;
     }
+
+
+    //	@AfterMethod
+//	public void setScreenshot(ITestResult result) {
+//		if (!result.isSuccess()) {
+//			try {
+//				WebDriver returned = new Augmenter().augment(driver);
+//				if (returned != null) {
+//					File f = ((TakesScreenshot) returned)
+//							.getScreenshotAs(OutputType.FILE);
+//					try {
+//						FileUtils.copyFile(f, new File(SCREENSHOT_FOLDER
+//								+ result.getName() + SCREENSHOT_FORMAT));
+//					} catch (IOException e) {
+//						e.printStackTrace();
+//					}
+//				}
+//			} catch (ScreenshotException se) {
+//				se.printStackTrace();
+//			}
+//		}
+//	}
 
 
 
