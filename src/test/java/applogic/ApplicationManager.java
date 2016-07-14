@@ -8,6 +8,7 @@ public interface ApplicationManager {
 
     NavigationHelper getNavigationHelper();
     LoginHelper getLoginHelper();
+    GetCodeHelper getCodeHelper();
     void stop();
 
 }

@@ -18,7 +18,9 @@ public class LoginHelper1 extends DriverBasedHelper implements LoginHelper {
     }
 
     public void loginAs(LoginModel loginModel) {
-        pages.loginPage.setPhone(loginModel.getPhone());
+        pages.loginPage
+                .setPhone(loginModel.getPhone())
+                .clickGetCodeButton();
     }
 
 }

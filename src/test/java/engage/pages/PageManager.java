@@ -10,9 +10,9 @@ public class PageManager {
 
     private WebDriver driver;
 
-    public LoginPage loginPage;
-
     public InternalPage internalPage;
+    public LoginPage loginPage;
+    public GetCodePage getCodePage;
 
 
 
@@ -20,6 +20,7 @@ public class PageManager {
         this.driver = driver;
         loginPage = initElements(new LoginPage(this));
         internalPage = initElements(new InternalPage(this));
+        getCodePage = initElements(new GetCodePage(this));
 
     }
 

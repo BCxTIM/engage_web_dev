@@ -3,7 +3,9 @@ applogic1/NavigationHelper1.class
 applogic1/LoginHelper1.class
 engage/pages/AnyPage.class
 engage/pages/Page.class
+engage/pages/GetCodePage.class
 engage/pages/InternalPage.class
+applogic/GetCodeHelper.class
 applogic1/ApplicationManager1.class
 applogic/LoginHelper.class
 engage/pages/PageManager.class
@@ -11,5 +13,6 @@ applogic/ApplicationManager.class
 engage/pages/TestBase.class
 applogic/NavigationHelper.class
 model/LoginModel.class
+applogic1/GetCodeHelper1.class
 engage/pages/LoginPage.class
 tests/LoginTests.class

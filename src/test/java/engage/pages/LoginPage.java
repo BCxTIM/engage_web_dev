@@ -17,10 +17,17 @@ public class LoginPage extends AnyPage {
     @FindBy(name = "mobile")
     public WebElement phoneField;
 
+    @FindBy(css = ".btn.btn-primary.btn-lg")
+    public WebElement getCodeButton;
+
 
     public LoginPage setPhone(String phone) {
         phoneField.sendKeys(phone);
         return this;
+    }
+
+    public void clickGetCodeButton() {
+        getCodeButton.click();
     }
 
 

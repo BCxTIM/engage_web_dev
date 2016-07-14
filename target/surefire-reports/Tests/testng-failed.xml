@@ -7,8 +7,9 @@
     <classes>
       <class name="tests.LoginTests">
         <methods>
-          <include name="testOne"/>
+          <include name="loginNOK"/>
           <include name="init"/>
+          <include name="openMainPage"/>
           <include name="stop"/>
         </methods>
       </class> <!-- tests.LoginTests -->

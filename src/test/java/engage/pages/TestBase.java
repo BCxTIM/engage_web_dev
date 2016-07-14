@@ -22,7 +22,7 @@ public class TestBase {
 		app = new ApplicationManager1();
 	}
 
-	@AfterSuite(alwaysRun = true)
+	@AfterSuite
 	public void stop() {
 		app.stop();
 	}
