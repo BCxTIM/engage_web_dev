@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests" duration-ms="2795" started-at="2016-07-14T11:50:58Z" finished-at="2016-07-14T11:51:01Z">
+  <suite name="Tests" duration-ms="9549" started-at="2016-07-14T13:37:03Z" finished-at="2016-07-14T13:37:13Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="2795" started-at="2016-07-14T11:50:58Z" finished-at="2016-07-14T11:51:01Z">
+    <test name="Test1" duration-ms="9549" started-at="2016-07-14T13:37:03Z" finished-at="2016-07-14T13:37:13Z">
       <class name="tests.LoginTests">
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.LoginTests@30c7da1e]" name="init" is-config="true" duration-ms="2787" started-at="2016-07-14T14:50:58Z" finished-at="2016-07-14T14:51:01Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.LoginTests@30c7da1e]" name="init" is-config="true" duration-ms="8896" started-at="2016-07-14T16:37:03Z" finished-at="2016-07-14T16:37:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:tests.LoginTests@30c7da1e]" name="testOne" duration-ms="1" started-at="2016-07-14T14:51:01Z" finished-at="2016-07-14T14:51:01Z">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:tests.LoginTests@30c7da1e]" name="testOne" duration-ms="647" started-at="2016-07-14T16:37:12Z" finished-at="2016-07-14T16:37:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="stop()[pri:0, instance:tests.LoginTests@30c7da1e]" name="stop" is-config="true" duration-ms="78" started-at="2016-07-14T14:51:02Z" finished-at="2016-07-14T14:51:02Z">
+        <test-method status="PASS" signature="stop()[pri:0, instance:tests.LoginTests@30c7da1e]" name="stop" is-config="true" duration-ms="92" started-at="2016-07-14T16:37:13Z" finished-at="2016-07-14T16:37:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->

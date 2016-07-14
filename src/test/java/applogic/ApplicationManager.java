@@ -6,6 +6,7 @@ package applogic;
  */
 public interface ApplicationManager {
 
+    NavigationHelper getNavigationHelper();
     LoginHelper getLoginHelper();
     void stop();
 

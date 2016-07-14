@@ -1,2 +1,15 @@
-/Users/timrusso/TIM/test/tim/engagepage/src/test/java/engage/pages/HomePageTest.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/applogic/LoginHelper.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/applogic1/LoginHelper1.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/engage/pages/LoginPage.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/engage/pages/PageManager.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/applogic1/DriverBasedHelper.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/engage/pages/AnyPage.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/applogic1/ApplicationManager1.java
 /Users/timrusso/TIM/test/tim/engagepage/src/test/java/engage/pages/TestBase.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/applogic/NavigationHelper.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/applogic1/NavigationHelper1.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/tests/LoginTests.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/engage/pages/Page.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/engage/pages/InternalPage.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/model/LoginModel.java
+/Users/timrusso/TIM/test/tim/engagepage/src/test/java/applogic/ApplicationManager.java

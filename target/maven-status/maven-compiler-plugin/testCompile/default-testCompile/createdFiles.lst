@@ -1,4 +1,5 @@
 applogic1/DriverBasedHelper.class
+applogic1/NavigationHelper1.class
 applogic1/LoginHelper1.class
 engage/pages/AnyPage.class
 engage/pages/Page.class
@@ -8,6 +9,7 @@ applogic/LoginHelper.class
 engage/pages/PageManager.class
 applogic/ApplicationManager.class
 engage/pages/TestBase.class
+applogic/NavigationHelper.class
 model/LoginModel.class
 engage/pages/LoginPage.class
 tests/LoginTests.class

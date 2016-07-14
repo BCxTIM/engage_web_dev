@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ApplicationManager1 implements ApplicationManager {
 
+    private NavigationHelper navHelper;
     private LoginHelper loginHelper;
 
     private WebDriver driver;
@@ -24,6 +25,7 @@ public class ApplicationManager1 implements ApplicationManager {
 
     private static final String SCREENSHOT_FOLDER = "target/screenshots/";
     private static final String SCREENSHOT_FORMAT = ".png";
+
 
     public ApplicationManager1()  {
 
@@ -40,10 +42,20 @@ public class ApplicationManager1 implements ApplicationManager {
 
         driver = WebDriverFactory.getInstance(gridHubUrl, browser, username,
                 password);
+        //driver.get(baseUrl);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         loginHelper = new LoginHelper1(this);
+        navHelper = new NavigationHelper1(this);
 
+
+        getNavigationHelper().openMainPage();
+
+    }
+
+    @Override
+    public NavigationHelper getNavigationHelper() {
+        return navHelper;
     }
 
     @Override
