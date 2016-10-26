@@ -19,8 +19,13 @@ public class LoginHelper1 extends DriverBasedHelper implements LoginHelper {
 
     public void loginAs(LoginModel loginModel) {
         pages.loginPage
-                .setPhone(loginModel.getPhone())
-                .clickGetCodeButton();
+                .setEmail(loginModel.getEmail())
+                .clickNextButton();
+    }
+
+    @Override
+    public boolean ifPasswordFormOpened() {
+        return pages.loginPage.passwordField.isDisplayed();
     }
 
 }

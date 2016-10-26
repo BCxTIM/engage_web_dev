@@ -5,15 +5,15 @@ package model;
  */
 public class LoginModel {
 
-    private String phone;
+    private String email;
 
 
-    public  String getPhone() {
-        return  phone;
+    public  String getEmail() {
+        return  email;
     }
 
-    public LoginModel setPhone(String phone) {
-        this.phone = phone;
+    public LoginModel setEmail(String email) {
+        this.email = email;
         return this;
     }
 

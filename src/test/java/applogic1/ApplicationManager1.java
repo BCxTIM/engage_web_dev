@@ -15,7 +15,6 @@ public class ApplicationManager1 implements ApplicationManager {
 
     private NavigationHelper navHelper;
     private LoginHelper loginHelper;
-    private GetCodeHelper getCodeHelper;
 
     private WebDriver driver;
     protected String gridHubUrl;
@@ -47,7 +46,6 @@ public class ApplicationManager1 implements ApplicationManager {
 
         loginHelper = new LoginHelper1(this);
         navHelper = new NavigationHelper1(this);
-        getCodeHelper = new GetCodeHelper1(this);
 
 
         getNavigationHelper().openMainPage();
@@ -64,10 +62,6 @@ public class ApplicationManager1 implements ApplicationManager {
         return  loginHelper;
     }
 
-    @Override
-    public GetCodeHelper getCodeHelper() {
-        return getCodeHelper;
-    }
 
     protected String getBaseUrl() {
         return baseUrl;

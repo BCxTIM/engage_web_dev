@@ -14,20 +14,23 @@ public class LoginPage extends AnyPage {
    }
 
 
-    @FindBy(name = "mobile")
-    public WebElement phoneField;
+    @FindBy(id = "Email")
+    public WebElement emailField;
 
-    @FindBy(css = ".btn.btn-primary.btn-lg")
-    public WebElement getCodeButton;
+    @FindBy(id = "next")
+    public WebElement nextButton;
+
+    @FindBy(id = "Passwd")
+    public WebElement passwordField;
 
 
-    public LoginPage setPhone(String phone) {
-        phoneField.sendKeys(phone);
+    public LoginPage setEmail(String phone) {
+        emailField.sendKeys(phone);
         return this;
     }
 
-    public void clickGetCodeButton() {
-        getCodeButton.click();
+    public void clickNextButton() {
+        nextButton.click();
     }
 
 

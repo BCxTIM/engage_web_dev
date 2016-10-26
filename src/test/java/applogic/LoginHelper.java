@@ -8,5 +8,6 @@ import model.LoginModel;
 public interface LoginHelper {
 
     void loginAs(LoginModel loginModel);
+    boolean ifPasswordFormOpened();
 
 }
