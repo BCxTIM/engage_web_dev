@@ -9,12 +9,14 @@ import org.openqa.selenium.WebDriver;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by timrusso on 4/28/16.
+ * Created by tmoiseev on 10/31/2016.
  */
 public class ApplicationManager1 implements ApplicationManager {
 
     private NavigationHelper navHelper;
     private LoginHelper loginHelper;
+    private ComposeHelper composeHelper;
+    private MailsHelper mailsHelper;
 
     private WebDriver driver;
     protected String gridHubUrl;
@@ -46,6 +48,9 @@ public class ApplicationManager1 implements ApplicationManager {
 
         loginHelper = new LoginHelper1(this);
         navHelper = new NavigationHelper1(this);
+        composeHelper = new ComposeHelper1(this);
+        mailsHelper = new MailsHelper1(this);
+
 
 
         getNavigationHelper().openMainPage();
@@ -60,6 +65,16 @@ public class ApplicationManager1 implements ApplicationManager {
     @Override
     public LoginHelper getLoginHelper() {
         return  loginHelper;
+    }
+
+    @Override
+    public ComposeHelper getComposeHelper() {
+        return composeHelper;
+    }
+
+    @Override
+    public MailsHelper getMailsHelper() {
+        return mailsHelper;
     }
 
 

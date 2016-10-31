@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
- * Created by timrusso on 4/28/16.
+ * Created by tmoiseev on 10/31/2016.
  */
 public class DriverBasedHelper {
 

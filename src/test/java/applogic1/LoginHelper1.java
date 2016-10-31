@@ -6,7 +6,7 @@ import model.LoginModel;
 
 
 /**
- * Created by timrusso on 4/28/16.
+ * Created by tmoiseev on 10/31/2016.
  */
 public class LoginHelper1 extends DriverBasedHelper implements LoginHelper {
 
@@ -20,12 +20,16 @@ public class LoginHelper1 extends DriverBasedHelper implements LoginHelper {
     public void loginAs(LoginModel loginModel) {
         pages.loginPage
                 .setEmail(loginModel.getEmail())
-                .clickNextButton();
+                .clickNextButton()
+                .setPassword(loginModel.getPassword())
+                .clickSignInButton();
     }
 
     @Override
-    public boolean ifPasswordFormOpened() {
-        return pages.loginPage.passwordField.isDisplayed();
+    public boolean ifUserLogin() {
+        return pages.mailsPage.ensurePageLoaded()
+                .composeButton.isDisplayed();
     }
+
 
 }

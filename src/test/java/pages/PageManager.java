@@ -1,10 +1,10 @@
-package engage.pages;
+package pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * Created by timrusso on 4/28/16.
+ * Created by tmoiseev on 10/31/2016.
  */
 public class PageManager {
 
@@ -12,6 +12,8 @@ public class PageManager {
 
     public InternalPage internalPage;
     public LoginPage loginPage;
+    public MailsPage mailsPage;
+    public ComposePage composePage;
 
 
 
@@ -20,6 +22,8 @@ public class PageManager {
         this.driver = driver;
         loginPage = initElements(new LoginPage(this));
         internalPage = initElements(new InternalPage(this));
+        mailsPage = initElements(new MailsPage(this));
+        composePage = initElements(new ComposePage(this));
 
     }
 

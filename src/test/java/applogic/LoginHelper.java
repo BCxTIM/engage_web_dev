@@ -3,11 +3,11 @@ package applogic;
 import model.LoginModel;
 
 /**
- * Created by timrusso on 4/28/16.
+ * Created by tmoiseev on 10/31/2016.
  */
 public interface LoginHelper {
 
     void loginAs(LoginModel loginModel);
-    boolean ifPasswordFormOpened();
+    boolean ifUserLogin();
 
 }

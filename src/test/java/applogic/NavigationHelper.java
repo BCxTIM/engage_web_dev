@@ -1,7 +1,7 @@
 package applogic;
 
 /**
- * Created by timrusso on 7/14/16.
+ * Created by tmoiseev on 10/31/2016.
  */
 public interface NavigationHelper {
 

@@ -1,12 +1,22 @@
 package model;
 
 /**
- * Created by timrusso on 4/28/16.
+ * Created by tmoiseev on 10/31/2016.
  */
 public class LoginModel {
 
     private String email;
+    private String password;
 
+    public LoginModel setPassword(String password) {
+        this.password = password;
+        return this;
+    }
+
+    public String getPassword() {
+
+        return password;
+    }
 
     public  String getEmail() {
         return  email;
