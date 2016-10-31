@@ -1,0 +1,11 @@
+2016-10-31 15:53:57,104 - tests.ComposeTests -INFO - Loging as user
+2016-10-31 15:59:33,380 - tests.ComposeTests -INFO - Logging as user
+2016-10-31 15:59:38,905 - tests.ComposeTests -INFO - Assert if user is log in
+2016-10-31 15:59:47,086 - tests.ComposeTests -INFO - Compose email
+2016-10-31 15:59:48,002 - tests.ComposeTests -INFO - Verify that email was sent
+2016-10-31 15:59:48,225 - tests.ComposeTests -INFO - Open last email sent
+2016-10-31 15:59:49,080 - tests.ComposeTests -INFO - Verify subject
+2016-10-31 15:59:50,318 - tests.ComposeTests -INFO - Verify description
+2016-10-31 15:59:51,597 - tests.ComposeTests -INFO - Try to send email without subject, description, and email address
+2016-10-31 15:59:51,768 - tests.ComposeTests -INFO - Verify that appear error message
+2016-10-31 15:59:52,349 - tests.ComposeTests -INFO - Close popup

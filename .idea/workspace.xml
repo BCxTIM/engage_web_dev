@@ -2,42 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58187378-a8ab-4acd-9c5d-9e5dcac6b631" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/applogic/ComposeHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/applogic/MailsHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/applogic1/ComposeHelper1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/applogic1/MailsHelper1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/model/ComposeModel.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/applogic/GetCodeHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/engage/pages/AnyPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/engage/pages/InternalPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/engage/pages/LoginPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/engage/pages/Page.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/engage/pages/PageManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/engage/pages/TestBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTests.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/applogic/ApplicationManager.class" afterPath="$PROJECT_DIR$/target/test-classes/applogic/ApplicationManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/applogic/LoginHelper.class" afterPath="$PROJECT_DIR$/target/test-classes/applogic/LoginHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/applogic1/ApplicationManager1.class" afterPath="$PROJECT_DIR$/target/test-classes/applogic1/ApplicationManager1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/applogic1/LoginHelper1.class" afterPath="$PROJECT_DIR$/target/test-classes/applogic1/LoginHelper1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/engage/pages/LoginPage.class" afterPath="$PROJECT_DIR$/target/test-classes/engage/pages/LoginPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/engage/pages/PageManager.class" afterPath="$PROJECT_DIR$/target/test-classes/engage/pages/PageManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/model/LoginModel.class" afterPath="$PROJECT_DIR$/target/test-classes/model/LoginModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engage.iml" afterPath="$PROJECT_DIR$/engage.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/applogic/ApplicationManager.java" afterPath="$PROJECT_DIR$/src/test/java/applogic/ApplicationManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/applogic/LoginHelper.java" afterPath="$PROJECT_DIR$/src/test/java/applogic/LoginHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/applogic/NavigationHelper.java" afterPath="$PROJECT_DIR$/src/test/java/applogic/NavigationHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/applogic1/ApplicationManager1.java" afterPath="$PROJECT_DIR$/src/test/java/applogic1/ApplicationManager1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/applogic1/DriverBasedHelper.java" afterPath="$PROJECT_DIR$/src/test/java/applogic1/DriverBasedHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/applogic1/LoginHelper1.java" afterPath="$PROJECT_DIR$/src/test/java/applogic1/LoginHelper1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/applogic1/NavigationHelper1.java" afterPath="$PROJECT_DIR$/src/test/java/applogic1/NavigationHelper1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/model/LoginModel.java" afterPath="$PROJECT_DIR$/src/test/java/model/LoginModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/engagepage.iml" afterPath="$PROJECT_DIR$/engage.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/ComposeTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/ComposeTests.java" afterPath="$PROJECT_DIR$/src/test/java/tests/ComposeTests.java" />
     </list>
     <ignored path="engagepage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +30,8 @@
       <file leaf-file-name="ComposeTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ComposeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="1255">
+              <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,12 +75,10 @@
         <option value="$PROJECT_DIR$/src/test/java/applogic/ComposeHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/applogic1/ComposeHelper1.java" />
         <option value="$PROJECT_DIR$/src/test/java/engage/pages/ComposePage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/applogic/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/applogic/GetCodeHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/applogic/LoginHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/applogic/NavigationHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/applogic1/ApplicationManager1.java" />
         <option value="$PROJECT_DIR$/src/test/java/applogic1/DriverBasedHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/applogic1/LoginHelper1.java" />
         <option value="$PROJECT_DIR$/src/test/java/applogic1/MailsHelper1.java" />
@@ -129,6 +96,10 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/PageManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/TestBase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/applogic1/ApplicationManager1.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ComposeTests.java" />
       </list>
     </option>
@@ -171,6 +142,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -200,11 +173,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,10 +287,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,6 +315,12 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TIM\engage" />
+      <recent name="D:\TIM\engage\src\test\java" />
+      <recent name="D:\TIM\engage\src\test\java\tests" />
+      <recent name="D:\TIM\engage\src\test\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="engage.pages" />
     </key>
@@ -737,9 +746,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ComposeTests.composeEmailNOk" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ComposeTests.verifySentEmail" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ComposeTests.composeEmailOk" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ComposeTests.composeEmailOk" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ComposeTests.composeEmailNOk" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ComposeTests.verifySentEmail" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.ComposeTests.loginOK" />
       </list>
     </recent_temporary>
@@ -761,34 +770,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ComposeTests_composeEmailNOk - 2016.10.31 at 13h 36m 37s.xml">
-      <configuration name="ComposeTests.composeEmailNOk" configurationId="TestNG" />
+    <history-entry file="ComposeTests_composeEmailOk - 2016.10.31 at 15h 40m 07s.xml">
+      <configuration name="ComposeTests.composeEmailOk" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComposeTests_composeEmailNOk - 2016.10.31 at 13h 38m 22s.xml">
-      <configuration name="ComposeTests.composeEmailNOk" configurationId="TestNG" />
+    <history-entry file="ComposeTests_composeEmailOk - 2016.10.31 at 15h 41m 26s.xml">
+      <configuration name="ComposeTests.composeEmailOk" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComposeTests_composeEmailNOk - 2016.10.31 at 13h 39m 36s.xml">
-      <configuration name="ComposeTests.composeEmailNOk" configurationId="TestNG" />
+    <history-entry file="ComposeTests_composeEmailOk - 2016.10.31 at 15h 41m 43s.xml">
+      <configuration name="ComposeTests.composeEmailOk" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComposeTests_verifySentEmail - 2016.10.31 at 13h 32m 13s.xml">
-      <configuration name="ComposeTests.verifySentEmail" configurationId="TestNG" />
+    <history-entry file="ComposeTests_composeEmailOk - 2016.10.31 at 15h 42m 30s.xml">
+      <configuration name="ComposeTests.composeEmailOk" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ComposeTests_verifySentEmail - 2016.10.31 at 13h 34m 07s.xml">
-      <configuration name="ComposeTests.verifySentEmail" configurationId="TestNG" />
+    <history-entry file="ComposeTests_composeEmailOk - 2016.10.31 at 15h 46m 29s.xml">
+      <configuration name="ComposeTests.composeEmailOk" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2016.10.31 at 13h 40m 21s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
+    <history-entry file="ComposeTests_composeEmailOk - 2016.10.31 at 15h 46m 54s.xml">
+      <configuration name="ComposeTests.composeEmailOk" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2016.10.31 at 13h 42m 56s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
+    <history-entry file="ComposeTests_composeEmailOk - 2016.10.31 at 15h 50m 56s.xml">
+      <configuration name="ComposeTests.composeEmailOk" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2016.10.31 at 13h 44m 07s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
+    <history-entry file="ComposeTests_composeEmailOk - 2016.10.31 at 15h 52m 01s.xml">
+      <configuration name="ComposeTests.composeEmailOk" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2016.10.31 at 13h 46m 07s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
+    <history-entry file="ComposeTests_composeEmailOk - 2016.10.31 at 15h 54m 13s.xml">
+      <configuration name="ComposeTests.composeEmailOk" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2016.10.31 at 13h 47m 49s.xml">
+    <history-entry file="Unnamed - 2016.10.31 at 15h 59m 53s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -812,8 +821,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -844,54 +853,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/applogic1/LoginHelper1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/applogic1/GetCodeHelper1.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/applogic1/LoginHelper1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ComposeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/TestBase.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/applogic1/ApplicationManager1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -933,13 +900,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/MailsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/MailsPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/applogic1/ComposeHelper1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
@@ -965,13 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1002,17 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/applogic1/ApplicationManager1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,72 +991,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/AnyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/ComposePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/InternalPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/PageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/AnyPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/ComposePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/InternalPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/LoginPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/Page.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/PageManager.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/engage/pages/TestBase.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/model/ComposeModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,7 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1147,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,9 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,14 +1058,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1.jar!/org/openqa/selenium/logging/Logs.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/testlog1.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/applogic1/ApplicationManager1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/testlog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/application.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/ComposeTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="1255">
+          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -4,6 +4,7 @@ import applogic.*;
 import engage.util.Browser;
 import engage.util.PropertyLoader;
 import engage.webdriver.WebDriverFactory;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -31,6 +32,7 @@ public class ApplicationManager1 implements ApplicationManager {
 
     public ApplicationManager1()  {
 
+        //PropertyConfigurator.configure("Log4j.properties");
         baseUrl = PropertyLoader.loadProperty("site.url");
         gridHubUrl = PropertyLoader.loadProperty("grid2.hub");
 
@@ -45,6 +47,7 @@ public class ApplicationManager1 implements ApplicationManager {
         driver = WebDriverFactory.getInstance(gridHubUrl, browser, username,
                 password);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
 
         loginHelper = new LoginHelper1(this);
         navHelper = new NavigationHelper1(this);
